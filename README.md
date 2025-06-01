@@ -1,4 +1,4 @@
-# 8 | Bug Bounty
+# [IN-PROGRESS] 8 | Bug Bounty
 ## Introduction
 
 
