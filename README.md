@@ -25,6 +25,7 @@ By the end, you’ll see how even a simple log message can play a major role in 
 9. Go to password manager website again, login with incorrect credentials
 10. Go to Loggly to look for level 300 warning log with error message
 <img width="80%" alt="image" src="https://github.com/user-attachments/assets/888559ae-08f6-402d-89b4-b92a2ccf56db" />
+
 *Details of failed login log*
 
 ## Reflection
