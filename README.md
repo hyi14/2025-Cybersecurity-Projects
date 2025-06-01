@@ -1,4 +1,4 @@
-# [IN PROGRESS] W3 | Encryption
+# W3 | Encryption
 ## Introduction
 
 
