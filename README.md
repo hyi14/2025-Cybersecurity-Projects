@@ -1,9 +1,6 @@
-# 2025-Cybersecurity-Projects
+# Overall Reflection
 
-Here I document my learning process for hands-on labs for the Cybersecurity Course "Information Security & Assurance" at the University of Washington Seattle. Join me along my 11 Week Cybersecurity Foundations Journey!
+If you enjoyed this and want to read about the Cyber Peeps and Security Bricks Lab, come vist us at [THE PLAYGROUND]([url](https://playgroundthe.com/))! We'd love to have you.
 
-Credit: [(Zach Kornas, 2025)](https://github.com/uw-shanemiller/spr-25-uw-cybersec-huskey-manager)
+<img width="100%" alt="Pasted Graphic 11" src="https://github.com/user-attachments/assets/b630deff-1477-458f-a26e-d6e170adf363" />
 
-<img width="100%" alt="Pasted Graphic 11" src="https://github.com/user-attachments/assets/315ed828-a5fd-4dbe-b3f5-22b40277740b" />
-
-Scroll to end of each project to see how the LEGO Cyber Peeps progress throughout!
