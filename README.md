@@ -1,7 +1,6 @@
 # W2 | MITM
 ## Introduction
 You’ve just set up your development environment—but before HusKey Manager goes public, it’s time to test how secure your network really is. Let's become a script kiddie to see just how easy it is to intercept unprotected data.
-
 Using a **man-in-the-middle (MITM) attack**, we’ll explore what happens when a web app doesn’t encrypt traffic properly. You’ll:
 
 - Practice **ARP spoofing** to reroute traffic
@@ -26,4 +25,4 @@ This attack violated **Confidentiality** as it allowed unauthorized interception
 
 Ways to mitigate this types of attack could be sending honeypots as traps or using crowdsourcing certificates to detect unexpected certficates issued to our domain.
 
-<img width="50%" alt="image" src="https://github.com/user-attachments/assets/5ba51720-eef8-45f0-af58-4ddcc4c4393d" />
+<img width="50%" alt="image" src="https://github.com/user-attachments/assets/5ba51720-eef8-45f0-af58-4ddcc4c4393d" /
