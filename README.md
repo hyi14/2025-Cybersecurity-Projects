@@ -55,7 +55,7 @@ By the end, we’ll understand why **input handling** is one of the most critica
 
 *Retrieving all Vault passwords with SQLi*
 
-<img width="80%" alt="image" src="https://github.com/user-attachments/assets/245ba557-bca0-4a70-a03c-d3c54cc1cb49" />
+<img width="100%" alt="image" src="https://github.com/user-attachments/assets/245ba557-bca0-4a70-a03c-d3c54cc1cb49" />
 
 *Malicious payload and popup asking user for crential information*
 ## Reflection
