@@ -51,11 +51,11 @@ By the end, we’ll understand why **input handling** is one of the most critica
 15. Click “Update Password” to save and have a partner navigate to the vault to edit details. 
 16. Tne JS embedded in the “Notes” field will popup automatically, asking for their vault password. 
 17. If they enter information an alert box will show the captured data.
-<img width="70%" alt="image" src="https://github.com/user-attachments/assets/2b061cdf-d198-415e-a295-abf95a67a42b" />
+<img width="80%" alt="image" src="https://github.com/user-attachments/assets/2b061cdf-d198-415e-a295-abf95a67a42b" />
 
 *Retrieving all Vault passwords with SQLi*
 
-<img width="70%" alt="image" src="https://github.com/user-attachments/assets/245ba557-bca0-4a70-a03c-d3c54cc1cb49" />
+<img width="80%" alt="image" src="https://github.com/user-attachments/assets/245ba557-bca0-4a70-a03c-d3c54cc1cb49" />
 
 *Malicious payload and popup asking user for crential information*
 ## Reflection
