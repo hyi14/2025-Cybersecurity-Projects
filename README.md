@@ -1,4 +1,4 @@
-# W4 | Logging
+# [IN-PROGRESS] W4 | Logging
 ## Introduction
 
 
