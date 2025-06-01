@@ -35,11 +35,11 @@ By the end, we’ll understand how proper session and access control preserves *
 19. Edit > Find in Files to replace all remaining _COOKIE with _SESSION
 20. Log with new account and try to edit/add cookies to gain Admin privileges, reload page
 21. Having secured the password manager I now cannot edit cookies to gain unauthorized access
-<img width="80%" alt="image" src="https://github.com/user-attachments/assets/b01ab5b0-fdd4-43dd-9c82-2c1310485010" />
+<img width="70%" alt="image" src="https://github.com/user-attachments/assets/b01ab5b0-fdd4-43dd-9c82-2c1310485010" />
 
 *Logged in as user: Jane Doe by editing browser cookies without password*
 
-<img width="80%" alt="image" src="https://github.com/user-attachments/assets/f57755d8-66be-4e24-bbf5-954f54a0067f" />
+<img width="70%" alt="image" src="https://github.com/user-attachments/assets/f57755d8-66be-4e24-bbf5-954f54a0067f" />
 
 *Altered browser cookies to grant Admin access to personal user: Wow*
 
