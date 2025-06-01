@@ -44,6 +44,6 @@ I learned that while encryption blocks access to sensitive data, it doesn’t ve
 
 From a hacker’s mindset, persistence was key. I had to repeat this lab three times to properly deploy the certification and detect encrypted traffic. This resilience mirrors the essential persistence of attackers.
 
-> **💡 Even with HTTPS in place, a compromised CA could issue valid certificates for malicious domains. Securing trust chains is just as important as securing traffic itself.**
+**💡 Even with HTTPS in place, a compromised CA could issue valid certificates for malicious domains. Securing trust chains is just as important as securing traffic itself.**
 
 <img width="50%" alt="image" src="https://github.com/user-attachments/assets/e75b2e0d-860a-49af-8dd2-b6fd5493801c" />
