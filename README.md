@@ -3,13 +3,12 @@
 ## Introduction  
 Web applications live and die by how they handle user input—and in this lab, you’ll discover what happens when that input isn’t properly validated.
 
-We’ll test two of the most common web vulnerabilities:
+We’ll test two of most common web vulnerabilities:
 - **SQL Injection** which targets the database layer by manipulating queries
 - **Cross-Site Scripting (XSS)** which injects malicious scripts into web pages
 
 Using **OWASP ZAP** we’ll scan the app to find vulnerabilities then manually craft input to exploit them—altering data, injecting scripts, demonstrating risks of insecure input handling.
 
-We’ll:
 - Use **ZAP** to identify injection vulnerabilities
 - Perform real SQLi and XSS attacks on a test system
 - Learn how to prevent them through validation and sanitization
