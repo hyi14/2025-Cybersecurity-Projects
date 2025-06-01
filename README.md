@@ -28,7 +28,7 @@ By the end, you’ll see how cryptography upholds **Confidentiality** in the CIA
 13. Monitor traffic and confirm you see **encrypted TLS** packets instead of raw HTTP data.
 <img width="80%" alt="image" src="https://github.com/user-attachments/assets/2b38c25a-8592-4746-bcad-66656f875298" />
 
-*My created certificate isn't trusted by the browser as it doesn't recognize the CA.*
+*The created certificate isn't trusted as the browser doesn't recognize the CA.*
 
 
 ## Reflection  
