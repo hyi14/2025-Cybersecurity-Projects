@@ -18,9 +18,11 @@ Ready? Let's go!
 3. Inside VS Code I opened the folder and created a .env file to contain the environment variables required to deploy the HusKey Manager.
 4. Once everything was set, I deployed the HusKey Manager in Docker and explored the website in Chrome.
 <img width="80%" alt="image" src="https://github.com/user-attachments/assets/00e8c000-34cb-4ea1-9827-2dcd32effd8a" />
+
 *Docker environment with three separate images*
+
 <img width="80%" alt="image" src="https://github.com/user-attachments/assets/1240209e-6eb6-4c55-a713-d33941f0550b" />
-<br>
+
 *Vault page in deployed Huskey Manager*
 
 ## Reflection
