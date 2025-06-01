@@ -1,6 +1,6 @@
 # Overall Reflection
 
-If you enjoyed this and want to read more about the **Cyber Peeps and Security Bricks Lab**, come vist us at **[THE PLAYGROUND](https://playgroundthe.com/)**!
+If you enjoyed this and want to read more about the **Cyber Peeps and Security Bricks Lab**, come vist us at **[THE PLAYGROUND](https://playgroundthe.com/)**.
 <br>
 We'd love to have you. Thanks for coming along our journey!
 
