@@ -1,33 +1,29 @@
-# W1 | Environment Setup
+# W2 | MITM
 ## Introduction
-**Imagine this scenario**: You’re part of a small internal team using a password manager—**HusKey Manager**—for day-to-day work-related password storage. Until now, it’s been an internal tool, but your boss sees bigger potential: they want to turn HusKey Manager into a public-facing consumer product by the end of the quarter.
+You’ve just set up your development environment—but before HusKey Manager goes public, it’s time to test how secure your network really is. Let's become a script kiddie to see just how easy it is to intercept unprotected data.
 
-However, as someone familiar with the system, you know that in its current state, there are numerous security vulnerabilities that must be addressed before the public can safely use it. Over the next weeks, you’ll apply what cybersecurity concept you're learning to:
-- Identify and test vulnerabilities
-- Remediate critical security flaws
-- Ensure the web application maintains full functionality as it's hardened
+Using a **man-in-the-middle (MITM) attack**, we’ll explore what happens when a web app doesn’t encrypt traffic properly. You’ll:
 
-By the end of the project, your mission is clear: leave behind a **more secure, production-ready version of HusKey Manager**—built for public use.
+- Practice **ARP spoofing** to reroute traffic
+- Use **Wireshark** to analyze network packets
+- Discover the risks of missing **HTTPS encryption**
 
-Ready? Let's go!
+By the end, we’ll see firsthand why secure networking is critical to protecting sensitive information. Ready to eavesdrop like an ethical hacker? Let’s dive in.
 
 ## Steps
 
-1. First off, I cloned the HusKey Manager folder repo to my device.
-2. Next, to setup the adequete environment for our web application I installed Docker, an isolated "sandbox" environment useful for developing and testing to run applications regardless of an end user's operating system/machine.
-3. Inside VS Code I opened the folder and created a .env file to contain the environment variables required to deploy the HusKey Manager.
-4. Once everything was set, I deployed the HusKey Manager in Docker and explored the website in Chrome.
-<img width="100%" alt="image" src="https://github.com/user-attachments/assets/00e8c000-34cb-4ea1-9827-2dcd32effd8a" />
-
-*Docker environment with three separate images*
-
-<img width="100%" alt="image" src="https://github.com/user-attachments/assets/1240209e-6eb6-4c55-a713-d33941f0550b" />
-
-*Vault page in deployed Huskey Manager*
+1. Install Homebrew, Bettercap and Wireshark (For Mac users, download ChmodBPF).
+2. Open Wireshark and select the same Wifi network as the victim's device. This will show all network packets being sent to and from the victim's computer. While monitoring their traffic, have the victim log into their password manager.
+3. Apply a filter to match the source IP address with the victim using ip.src == VICTIM_IP
+4. For more organization, I sorted the packets by protocol. Since the victim connected to the unencrypted site of HTTP, we can look for packets that use that protocol.
+5. Looking through the packets I see one that uses the POST header to login. Clicking and reviewing the details, I can see the victim'g login information in clear text.
+<img width="100%" alt="image" src="https://github.com/user-attachments/assets/ae19fb9f-58e2-442b-9e4c-d946def64d6b" />
 
 ## Reflection
-I often find software setup to be more tedious than the actual applications, Docker being no exception. Yet possibly due to the friendly whale logo, the struggle was filled with more positivity and curiousity. Being new to the "containerization" concept, I leveraged Gemini and Youtube tutorials to learn more about how Docker works. In short the three main images are a MySQL server for handling the datbase, Nginx server to forward client requests to the appropriate backend server and PHP server to execute server side code and communicate directly with the database. Although the HusKey Manager is a very basic password manager, I'm excited to "hack the system", exploiting and patching it!
+By spoofing the ARP table entries by matching my machine's MAC address with the gateway's IP address, I was able to redirect the victim's encrypted traffic toward me. Easily gaining access to their personal login credentials I realized how with the **lack of HTTPS or encrypted tunnels could cause greater harm**. Using the victim's credentials I could exploit the password manager and gain internal access. Acknowledging the simplified MITM attack and insecure system, it was still suprising how a single command "sudo bettercap -eval "set arp.spoof.targets <victim IP>; arp.spoof on" could give access to a whole packet network.
 
-<img width="50%" alt="image" src="https://github.com/user-attachments/assets/fce71d7a-8919-4a2e-ae0f-a508c28923c2" />
+This attack violated **Confidentiality** as it allowed unauthorized interception and viewing of private communications that should have remained between the victim and the intended server. **Integrity** was also compromised since the attacker had the ability to modify packets, altering data being transmitted between victim and server.
 
-*Yes we got our tools! Now time to rock the project*
+Some ways to mitigate this types of attack cuold be sending honeypots as traps or using crowdsourcing certificates to detect unexpected certficates issued to our domain.
+
+![MITM](https://github.com/user-attachments/assets/5ba51720-eef8-45f0-af58-4ddcc4c4393d)
