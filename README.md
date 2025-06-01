@@ -26,6 +26,9 @@ By the end, you’ll see how cryptography upholds **Confidentiality** in the CIA
 11. Launch Wireshark, connect to the same Wi-Fi as your victim, and filter traffic using their IP.  
 12. Have your partner log in to the password manager.  
 13. Monitor traffic and confirm you see **encrypted TLS** packets instead of raw HTTP data.
+<img width="80%" alt="image" src="https://github.com/user-attachments/assets/2b38c25a-8592-4746-bcad-66656f875298" />
+
+*My created certificate isn't trusted by the browser as it doesn't recognize the CA.*
 
 
 ## Reflection  
