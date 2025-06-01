@@ -30,6 +30,9 @@ By the end, you’ll see how cryptography upholds **Confidentiality** in the CIA
 
 *The created certificate isn't trusted as the browser doesn't recognize the CA.*
 
+<img width="80%" alt="image" src="https://github.com/user-attachments/assets/707f3b90-c8ff-491d-9f49-7b903821faa4" />
+
+*Login data now encrypted, unreadable in MITM attack.*
 
 ## Reflection  
 
