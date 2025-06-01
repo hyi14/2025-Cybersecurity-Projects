@@ -29,4 +29,5 @@ Ready? Let's go!
 I often find software setup to be more tedious than the actual applications, Docker being no exception. Yet possibly due to the friendly whale logo, the struggle was filled with more positivity and curiousity. Being new to the "containerization" concept, I leveraged Gemini and Youtube tutorials to learn more about how Docker works. In short the three main images are a MySQL server for handling the datbase, Nginx server to forward client requests to the appropriate backend server and PHP server to execute server side code and communicate directly with the database. Although the HusKey Manager is a very basic password manager, I'm excited to "hack the system", exploiting and patching it!
 
 <img width="50%" alt="image" src="https://github.com/user-attachments/assets/fce71d7a-8919-4a2e-ae0f-a508c28923c2" />
-(Yes we got our tools! Now time to rock the project)
+
+*Yes we got our tools! Now time to rock the project*
