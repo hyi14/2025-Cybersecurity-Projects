@@ -1,9 +1,7 @@
 # W3 | Encryption
 
 ## Introduction  
-Now that we’ve seen how unencrypted traffic can be intercepted, it’s time to take a proactive step toward security. In this lab, we’ll **secure HusKey Manager with HTTPS** by creating and signing our own SSL/TLS certificate.
-
-By deploying HTTPS locally, we’ll understand how encryption protects data **in transit**, and why modern applications must never expose sensitive info in plaintext.
+Now that we’ve seen how unencrypted traffic can be intercepted, it’s time to take a proactive step toward security. In this lab, we’ll **secure HusKey Manager with HTTPS** by creating and signing our own SSL/TLS certificate. By deploying HTTPS locally, we’ll understand how encryption protects data **in transit**, and why modern applications must never expose sensitive info in plaintext.
 
 You’ll:
 - Generate and sign your own SSL certificate with **OpenSSL**
