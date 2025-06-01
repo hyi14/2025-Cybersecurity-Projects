@@ -21,17 +21,20 @@ By the end, we’ll understand why **input handling** is one of the most critica
 3. In the top menu set view to “Reponses” and “Alerts” and let system run for 10 minutes.
 4. Once a high alert (red flag) “SQL Injection” vulnerability is found, study the report to see which type of SQL injection can be used for the username in the login page.
 **Log in as Admin without using their password**
-5. Use the query ' and 0 in (select sleep(15) ) – and random password to bypass the login page.
-6. Explore pages, and logout.
-7. Login as the Admin without a password using a similar approach. Admin’ --#
-8. Logout, login as “Username” with proper credentials.
+
+6. Use the query ' and 0 in (select sleep(15) ) – and random password to bypass the login page.
+7. Explore pages, and logout.
+8. Login as the Admin without a password using a similar approach. Admin’ --#
+9. Logout, login as “Username” with proper credentials.
 
 **Find a way to retrieve all VAULT passwords from database**
+
 9. Navigate to Vaults page.
 10. In the search field input the following injection: ‘UNION SELECT username, password FROM vault_passwords-- -
 11. Press enter to see all vault passwords load.
 
 **Create false pop-up asking victim for confidential info whenever they access a vault**
+
 12. Reload page to clear the search field.
 13. Navigate to a vault, click on “Edit password”.
 14. In the “Notes” field paste the JS payload that will create a fake popup asking for sensitive information.
