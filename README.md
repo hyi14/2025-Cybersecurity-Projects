@@ -25,4 +25,4 @@ This attack violated **Confidentiality** as it allowed unauthorized interception
 
 Ways to mitigate this types of attack could be sending honeypots as traps or using crowdsourcing certificates to detect unexpected certficates issued to our domain.
 
-<img width="50%" alt="image" src="https://github.com/user-attachments/assets/5ba51720-eef8-45f0-af58-4ddcc4c4393d" /
+<img width="50%" alt="image" src="https://github.com/user-attachments/assets/5ba51720-eef8-45f0-af58-4ddcc4c4393d" />
