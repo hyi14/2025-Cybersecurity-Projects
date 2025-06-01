@@ -5,3 +5,5 @@ Here I document my learning process for hands-on labs for the Cybersecurity Cour
 Credit: [(Zach Kornas, 2025)](https://github.com/uw-shanemiller/spr-25-uw-cybersec-huskey-manager)
 
 <img width="100%" alt="Pasted Graphic 11" src="https://github.com/user-attachments/assets/315ed828-a5fd-4dbe-b3f5-22b40277740b" />
+
+(Scroll to the bottom of each project to see the LEGO peeps working on the project:) )
