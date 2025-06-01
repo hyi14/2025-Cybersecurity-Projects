@@ -25,11 +25,11 @@ This lab is your first real taste of offensive security essential knowledge for 
 9. Once the payload runs, enter sessions -l for listing all active connections
 10. Enter sessions -l <ID> i.e. sessions -l 1 to connect to a specific session.
 11. Once connected, use the command prompt to access files, run commands and find sensitive information.
-<img width="80%" alt="image" src="https://github.com/user-attachments/assets/c496474e-7dae-4442-ab97-9644cdd5383c" />
+<img width="70%" alt="image" src="https://github.com/user-attachments/assets/c496474e-7dae-4442-ab97-9644cdd5383c" />
 
 *Confirm LHOST, LPORT before launching payload*
 
-<img width="80%" alt="image" src="https://github.com/user-attachments/assets/29defdd7-06d8-46e3-ac1c-d217cdee35bb" />
+<img width="70%" alt="image" src="https://github.com/user-attachments/assets/29defdd7-06d8-46e3-ac1c-d217cdee35bb" />
 
 *Command prompt displayed for Session ID 1*
 
