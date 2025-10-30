@@ -98,8 +98,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 Timed Sessions protect availability and integrity. By expiring idle sessions it helps conserve server resources and prevent session overload, ensuring the system remains responsive and accessible to credible users. Timed sessions also reduce the risk of unauthorized changes by automatically logging users out after inactivity, limiting the window for session hijacking.
 **V2. Unauthorized CRUD Access to Vault Passwords** 
 Proper RBAC protects confidentiality. Granting only minimal access to complete their task decreasing attack surface. This limits exposure of sensitive information to only the authorized, reducing data leaks or unauthorized access.
-**V3. Missing CSP Threat**  
-CSP and Sanitization protect integrity. Additional measures to prevent external requests from altering internal information protects the trueness of data, and that no malicious code can be injected.
+**V3. Missing CSP Threat** CSP and Sanitization protect integrity. Additional measures to prevent external requests from altering internal information protects the trueness of data, and that no malicious code can be injected.
 
 For remediating the CSP threat I implemented multiple layers of protection, applying the defense of depth principle. For insufficient session expiration and unauthorized CRUD access, assuming “never trust, always verify” was essential. That no user/device/application should be trusted by default and every access request should be verified and carefully timed.
 
